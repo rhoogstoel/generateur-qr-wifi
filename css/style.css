@@ -1,0 +1,80 @@
+body {
+    background-color: #f8fbfd;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+label {
+    font-weight: 600;
+    color: #495f7e;
+    font-size: 0.9rem;
+}
+
+.identifiant, input[type='submit'] {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    font-weight: 600;
+}
+
+input[type='submit'] {
+    color: white;
+    background-color: #6781a5;
+}
+
+.rebond {
+    cursor: pointer;
+}
+
+.rebond:active {
+    transform: scale(0.99);
+}
+
+
+img {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* message d'erreur */
+p {
+    color: #ee3b3b;
+    font-size: 0.9rem;
+}
+
+/* redirection vers l'index une fois le qr code généré */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 30px;
+}
